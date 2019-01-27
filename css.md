@@ -65,3 +65,5 @@
 3. 源代码次序(Source order)
 
 ### 区块模型
+
+![框模型](https://mdn.mozillademos.org/files/13647/box-model-standard-small.png)
