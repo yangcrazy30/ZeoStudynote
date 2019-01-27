@@ -67,3 +67,15 @@
 ### 区块模型
 
 ![框模型](https://mdn.mozillademos.org/files/13647/box-model-standard-small.png)
+
+## 样式化文字
+
+### 链接
+
+链接样式修改要保持**L**o**V**e **F**ears **HA**te
+
+1. link
+2. visited
+3. focus
+4. hover
+5. active
