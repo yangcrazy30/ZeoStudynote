@@ -79,3 +79,44 @@
 3. focus
 4. hover
 5. active
+
+## 样式化区块
+
+### box model 回顾与补充
+
+#### margin塌陷
+
+两个box在一起时，margin为两个中的最大值
+
+#### 宽和高的约束
+
+```max-width``` 的另一个用法是将媒体限制在容器内部
+
+
+```css
+
+display:block;
+margin:0 auto;
+max-width:100%
+
+```
+
+#### 完全改变盒模型
+
+使用box-sizing调整盒模型（border-box）
+
+### 背景
+
+元素背景是指，在元素内容、内边距和边界下层的区域。
+
+#### 背景的基本内容
+
+1. color
+2. image
+3. position
+4. repeat
+
+#### 颜色渐变
+
+linear-gradient(方向,开始颜色,结束颜色)
+
