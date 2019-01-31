@@ -120,3 +120,66 @@ max-width:100%
 
 linear-gradient(方向,开始颜色,结束颜色)
 
+## css排版
+
+### 浮动
+
+建议使用百分比宽度
+
+#### 清除浮动
+
+```css
+    clear:both
+```
+
+### 定位
+
+
+
+#### 静态定位
+
+每个元素的默认值，意味着元素处于正常位置
+
+#### 相对定位
+
+相对于元素本来的位置作出变换```top bottom left right```
+
+#### 绝对定位
+
+相对于父级元素定位
+
+#### z-index
+
+决定元素重叠时的显示顺序
+
+#### 固定定位
+
+相对于html
+
+```css
+    position:fixed
+```
+
+### 弹性布局
+
+```css
+    display:flex
+```
+
+#### 弹性布局模型
+
+![弹性布局模型](https://developer.mozilla.org/files/3739/flex_terms.png)
+
+
+
+1. **主轴**是沿着 flex 元素放置的方向延伸的轴（比如页面上的横向的行、纵向的列）。该轴的开始和结束被称为 main start 和 main end
+2. **交叉轴**是垂直于 flex 元素放置方向的轴。该轴的开始和结束被称为 cross start 和 cross end。
+3. 设置了 ```display: flex ```的父元素（在本例中是 ```<section>```）被称之为 flex 容器（flex container）
+
+
+```flex-direction```选择列或者行
+```flex-wrap```换行
+
+##### 水平和垂直对齐
+
+```algin-items```控制item在交叉轴的位置 ```justify-content```控制flex在主轴的位置
